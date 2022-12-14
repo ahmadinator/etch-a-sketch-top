@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    background-color: darkred;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title {
+    color: white;
+}
+
+.grid {
+    width: 50rem;
+    height: 50rem;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 3px;
+    background-color: white;
+}
