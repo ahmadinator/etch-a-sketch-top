@@ -7,12 +7,17 @@
     <title>Etch-a-Sketch</title>
 
     <link href="./style.css" rel="stylesheet">
-    <script src="./main.js"></script>
 </head>
 <body>
     <h1 class="title">Etch-a-Sketch</h1>
-    <div class="grid">
-
+    <label id="rangelabel" for="gridsizerange">Grid Size: 16x16</label>
+    <input id="gridsizerange" type="range" autocomplete="off" min="2" max="100" value="16">
+    <div>
+        <button id="fadebtn">Enable Fade</button>
+        <button id="clearbtn">Clear</button>
+        <button id="eraserbtn">Enable Eraser</button>  
     </div>
+    <div class="grid"></div>
+    <script src="./main.js"></script>
 </body>
 </html>

@@ -11,9 +11,20 @@ body {
     color: white;
 }
 
+#rangelabel {
+    color:white;
+}
+
+button {
+    margin: 8px;
+}
+
 .grid {
-    width: 50rem;
-    height: 50rem;
+    display: flex;
+    flex-wrap: wrap;
+
+    width: 33rem;
+    height: 33rem;
     border: 2px solid black;
     border-radius: 5px;
     padding: 3px;
